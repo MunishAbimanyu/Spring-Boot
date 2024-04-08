@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fibonanaturals</title>
+        <link rel="stylesheet" href="./Account.css">
+        <link rel="icon" href="./image/logo.jpeg">
+</head>
+<body>
+    <header>
+        <form action="account" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your Name" required> <br> <br> <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter your Email " required> <br> <br> <br>
+            <label for="mobile">Mobile:</label>
+            <input type="number" name="mobile" placeholder="Enter your Mobile Number" required> <br> <br> <br>
+            <label for="password">PassWord:</label>
+            <input type="password" name="password" required id="pass1"> <input type="checkbox" onclick="myFunction('pass1')"> <br> <br> <br>
+            <label for="repassword">Re-PassWord</label>
+            <input type="password" name="repassword" required id="pass2">  <input type="checkbox" onclick="myFunction('pass2')"><br> <br> <br>
+            <a href="/index"><button id="bu">Click</button></a>
+        </form>
+    </header>
+    <script>
+        function myFunction(id) {
+            var a = document.getElementById(id);
+            if (a.type === "password") {
+                a.type = "text";
+
+            } else {
+                a.type = "password";
+            }
+        }
+</script>
+
+</body>
+</html>

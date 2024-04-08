@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./Order.css">
+	<link rel="stylesheet" href="./image/logo.jpeg">
+	<title>fibonanaturals</title>
+	<link rel="stylesheet" href="/src/main/resources/static/SucessOrder.css">
+</head>
+
+<body>
+	<center>
+		<header>
+			<h1>Welcome to Fibona Naturals</h1>
+
+			<form action="/order" method="post">
+				<label for="name">Name:</label>
+				<input type="text" name="name" placeholder="Enter your Name" required> <br> <br>
+				<label for="email">Email:</label>
+				<input type="email" name="email" placeholder="Enter your Email" required> <br> <br>
+				<label for="mobile">Mobile:</label>
+				<input type="tel" name="mobile" pattern="[0-9]{10}" placeholder="Enter your mobile number" required>
+				<br> <br>
+				<label for="address">Address:</label>
+				<input type="text" name="address"> <br> <br>
+				<label for="product">Product:</label>
+				<select name="product">
+					<option value=""></option>
+					<option value="tablet">Tablet</option>
+					<option value="soap">Soap</option>
+				</select> <br> <br>
+				<label for="quantity">Quantity</label>
+				<input type="number" name="quantity"> <br> <br>
+				<button type="submit">Place Order</button>
+			</form>
+		</header>
+		<aside class="tablet">
+		</aside>
+		<aside class="soap"></aside>
+	</center>
+	<br> <br>
+
+
+</body>
+
+</html>

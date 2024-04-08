@@ -1,0 +1,27 @@
+form{
+    height: 320px;
+    width: 280px;
+    border: 2px solid black;
+    padding-top: 40px;
+}
+.tablet{
+     height: 300px;
+     width: 350px;
+     background-color: black;
+     margin-top: -320px;
+     margin-right: 650px;
+     border-radius: 200px;
+     background-image: url(./image/photo_6269407493784450568_y.jpg);
+     background-size: cover;
+}
+.soap{
+
+    height: 300px;
+    width: 350px;
+    background-color: black;
+    margin-top: -300px;
+    margin-left: 650px;
+    border-radius: 200px;
+    background-image: url(./image/photo_6269407493784450608_y.jpg);
+    background-size: cover;
+}

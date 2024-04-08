@@ -1,0 +1,9 @@
+body{
+    background-image: url(./Image/back3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 250px;
+    margin-left: 100px;
+}
